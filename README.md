@@ -56,7 +56,7 @@ DataQueryEngine/
 │
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+
 ```
 
 ## Contributing
