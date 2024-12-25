@@ -37,3 +37,32 @@ With **DataQueryEngine**, the AI Agent learns from user interactions, adding val
 2. The query is presented to the user for validation.
 3. If the user approves, the query is added to the library.
 4. The validated query is stored for future use.
+
+
+## Expanding the Library
+To expand the library, you can create new SQL queries and associate them with relevant prompts. Once validated, these queries will be added to the library and available for the AI Agent to use.
+
+## Structure
+The repository structure is organized as follows:
+```
+DataQueryEngine/
+│
+├── queries/
+│   └── example_query.sql
+├── prompts/
+│   └── example_prompt.txt
+├── scripts/
+│   └── query_generator.py  # Logic for dynamically generating queries
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+## Contributing
+
+We welcome contributions to improve and extend the DataQueryEngine library! Please fork the repository, make your changes, and submit a pull request.
+
+- Add new queries and prompts to improve the query library.
+- Help improve query generation logic or validation process.
+- Update documentation for better clarity and usage.
